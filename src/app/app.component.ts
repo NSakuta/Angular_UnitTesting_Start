@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'hw-root',
-  templateUrl: './app.component.html',
+  template: '<hw-alert-button></hw-alert-button>',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-world';
 }
